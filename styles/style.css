@@ -78,7 +78,10 @@ line-height: auto;
   background-repeat: no-repeat; 
   height: 600px;
  border-radius: 16px;
-
+ background-position: center;
+display:flex;
+justify-content: center;
+align-items: center;
 }
 .ai-section{
   color: #FFF;
@@ -110,10 +113,42 @@ font-style: normal;
   background-color:bisque;
   width: 1170px;
   height: 285px;
-  margin:70px 20px;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 80px;
  }
- 
+ .functionality{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  gap:80px;
+ }
+ .comming-soon-image{
+  border-radius: 463px;
+border: 15px solid #F00;
+width:600px;
+height: 463px;
+position: Relative;
 
+ }
+ .imgclear{
+position: absolute;
+left:20px;
+top:25px;
+
+ }
+
+ .main-last {
+
+
+ }
+ .last-one{
+  display: flex;
+ }
 
  .red{
 color: red;
@@ -160,7 +195,7 @@ text-align: center;
 }
 .portfolio{
   width: 1600px;
-  height: 7335px;
+  
   background: #fffcfc;
   margin:50px 50px;
 
@@ -170,7 +205,7 @@ color: #F00;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
-
+margin:30px 30px;
 }
 .bl{
 color: #070211;
@@ -188,24 +223,72 @@ font-size: 26px;
 
 
 }
-.sub{
 
-  width: 1320px;
-height: 616px;
-border-radius: 16px;
-background: grey
+.main-last{
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  width: 1600px;
+  height: 600px;
+  margin:50px 50px;
 }
-
+.em {
+  
+  display:flex;
+  margin: 0 auto;
+}
+.jm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  
+}
+.subscribe-button{
+  background-color: #F00;
+  font-style: normal;
+  color: #FFF;
 
  
-.footer{
-background: #070211;
-width: 1170px;
-height: 285px;
-margin:70px 20px;
 
+}
+.foot{
+  background: #070211;
+  width: 1600px;
+  height: 600px;
+  margin:50px 50px;
 
- }
+}
+.last-one{
+  color:white;
+  display: flex;
+  align-items: center; 
+  justify-content: space-around; 
+  
+  padding: 200px 200px 0px 200px;
+}
+
+.image-wrapper{
+  align-items: center;
+  transform: translate(40%, 50%);
+  justify-content: center;
+  height: 250px;
+   
+  
+}
+.lastb {
+  font-size: large;
+  color:white;
+  display: flex;
+  align-items: center; 
+  justify-content: space-around; 
+  margin-top: 50px;
+}
 
  
 
